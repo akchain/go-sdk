@@ -1,6 +1,6 @@
 module github.com/akchain/go-sdk
 
-go 1.14
+go 1.13
 
 require (
 	github.com/bytom/bytom v1.1.0
