@@ -1,10 +1,10 @@
 package client
 
 import (
-	"akc/go-sdk/types"
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/akchain/go-sdk/types"
 	"io/ioutil"
 	"net/http"
 	"time"

@@ -1,8 +1,8 @@
 package client
 
 import (
-	"akc/go-sdk/types"
 	"encoding/json"
+	"github.com/akchain/go-sdk/types"
 )
 
 type AkchainClient interface {

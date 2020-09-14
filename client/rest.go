@@ -1,11 +1,11 @@
 package client
 
 import (
-	"akc/go-sdk/common"
-	"akc/go-sdk/types"
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/akchain/go-sdk/common"
+	"github.com/akchain/go-sdk/types"
 	"io"
 	"io/ioutil"
 	"mime/multipart"

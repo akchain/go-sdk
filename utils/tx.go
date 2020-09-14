@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"akc/go-sdk/types"
 	"encoding/hex"
+	"github.com/akchain/go-sdk/types"
 	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 	"github.com/bytom/bytom/crypto/sha3pool"
 	"github.com/bytom/bytom/errors"

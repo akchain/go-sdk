@@ -1,8 +1,8 @@
 package go_sdk
 
 import (
-	"akc/go-sdk/client"
 	"bytes"
+	"github.com/akchain/go-sdk/client"
 	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 	"github.com/tyler-smith/go-bip39"
 )

@@ -1,10 +1,10 @@
 package client
 
 import (
-	"akc/go-sdk/common"
-	"akc/go-sdk/types"
 	"encoding/json"
 	"fmt"
+	"github.com/akchain/go-sdk/common"
+	"github.com/akchain/go-sdk/types"
 )
 
 func (c *Mgr) GetConsensusState() (*types.ConsensusStateInfo, error) {

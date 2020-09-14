@@ -1,11 +1,11 @@
 package client
 
 import (
-	"akc/go-sdk/account"
-	"akc/go-sdk/common"
-	"akc/go-sdk/types"
 	"encoding/json"
 	"fmt"
+	"github.com/akchain/go-sdk/account"
+	"github.com/akchain/go-sdk/common"
+	"github.com/akchain/go-sdk/types"
 )
 
 func (c *Mgr) CreateAsset(xpub string, alias string) (*types.CreateAssetInfo, error) {

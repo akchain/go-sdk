@@ -1,8 +1,8 @@
 package test
 
 import (
-	account2 "akc/go-sdk/account"
 	"fmt"
+	account2 "github.com/akchain/go-sdk/account"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

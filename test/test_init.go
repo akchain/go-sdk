@@ -1,6 +1,6 @@
 package test
 
-import . "akc/go-sdk"
+import . "github.com/akchain/go-sdk"
 
 var (
 	akcSdk *AkchainSdk

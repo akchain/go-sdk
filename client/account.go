@@ -1,13 +1,13 @@
 package client
 
 import (
-	"akc/go-sdk/account"
-	"akc/go-sdk/common"
-	"akc/go-sdk/types"
-	"akc/go-sdk/utils"
 	"crypto/rand"
 	"encoding/json"
 	"fmt"
+	"github.com/akchain/go-sdk/account"
+	"github.com/akchain/go-sdk/common"
+	"github.com/akchain/go-sdk/types"
+	"github.com/akchain/go-sdk/utils"
 	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 )
 

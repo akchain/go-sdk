@@ -1,9 +1,9 @@
 package test
 
 import (
-	"akc/go-sdk/utils"
 	"encoding/hex"
 	"fmt"
+	"github.com/akchain/go-sdk/utils"
 	"github.com/bytom/bytom/crypto/ed25519/chainkd"
 	"github.com/stretchr/testify/assert"
 	"testing"
