@@ -242,5 +242,12 @@ func (c *Mgr) submitContract(contractTx *types.WasmTx) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return string(data), nil
+	var hash string
+
+	err = json.Unmarshal(data, &hash)
+	if err != nil {
+		return "", fmt.Errorf("json.Unmarshal:%s error:%s", data, err)
+	}
+
+	return hash, nil
 }

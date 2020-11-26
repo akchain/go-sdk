@@ -8,5 +8,5 @@ var (
 
 func init() {
 	akcSdk = NewAkchainSdk()
-	akcSdk.NewRestClient().SetAddress("http://106.14.210.116:30000")
+	akcSdk.NewRestClient().SetAddress("http://localhost:30000")
 }

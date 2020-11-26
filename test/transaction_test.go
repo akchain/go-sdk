@@ -36,7 +36,7 @@ func TestListUnconfirmedTx(t *testing.T) {
 //MuxID:5c5629a75015d196772a66db0624f9054fae8210d2b0eb06c3529c6ed67de064
 //MetaData:}
 func TestSearchTx(t *testing.T) {
-	tx, err := akcSdk.SearchTx("B1E0B3A9E484DCECDFE7E7601F7A8FA2846D6D7666F3A4669CA50CD8C360056F")
+	tx, err := akcSdk.SearchTx("C43E32BA7E93807F20D180F9C6E63AC9AA19F6C0425C883364E1E736BA174BDD")
 	assert.Nil(t, err, err)
 	fmt.Println(fmt.Sprintf("%+v", tx))
 	fmt.Println(fmt.Sprintf("%+v", tx.TransferTxInfo))
